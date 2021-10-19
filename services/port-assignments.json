@@ -1,0 +1,103 @@
+{
+	"api": {
+		"production": "3001",
+		"development": "3002"
+	},
+	"messagebroker": {
+		"production": "3003",
+		"development": "3004"
+	},
+	"databroker": {
+		"production": "3005",
+		"development": "3006"
+	},
+	"service": {
+		"production": "3007",
+		"development": "3008"
+	},
+	"engine": {
+		"production": "3009",
+		"development": "3010"
+	},
+	"cloudfunctions": {
+		"production": "3011",
+		"development": "3012"
+	},
+	"subscriptions": {
+		"production": "3013",
+		"development": "3014"
+	},
+	"datarequest": {
+		"production": "3015",
+		"development": "3016"
+	},
+	"externalAPI": {
+		"production": "3017",
+		"development": "3018"
+	},
+	"logger": {
+		"production": "3019",
+		"development": "3020"
+	},
+	"export": {
+		"production": "3021",
+		"development": "3022"
+	},
+	"core": {
+		"production": "3023",
+		"development": "3024"
+	},
+	"climaid": {
+		"production": "3025",
+		"development": "3026"
+	},
+	"eventbroker": {
+		"production": "3027",
+		"development": "3028"
+	},
+	"waterworks-backend": {
+		"production": "3029",
+		"development": "3030"
+	},
+	"newsec-backend": {
+		"production": "3031",
+		"development": "3032"
+	},
+	"camro-backend": {
+		"production": "3035",
+		"development": "3036"
+	},
+	"senti-building-backend": {
+		"production": "3037",
+		"development": "3038"
+	},
+	"doc-cache": {
+		"production": "3039",
+		"development": "3040"
+	},
+	"analytics": {
+		"production": "3041",
+		"development": "3042"
+	},
+	"dataseries": {
+		"production": "3043",
+		"development": "3044"
+	},
+	"dsc": {
+		"production": "3045",
+		"development": "3046"
+	},
+	"lwm2m": {
+		"production": "3047",
+		"development": "3048"
+	},
+	"microbizz": {
+		"production": "3049",
+		"development": "3050"
+	},
+	"iotrace-gateway": {
+		"production": "3051",
+		"development": "3052"
+	}
+
+}

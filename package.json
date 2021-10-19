@@ -1,0 +1,51 @@
+{
+	"name": "service",
+	"version": "0.0.4",
+	"deprecated": false,
+	"description": "Senti Service service",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo 'No Tests'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/senti-iot/senti-service.git"
+	},
+	"keywords": [
+		"Senti.Cloud",
+		"Senti.IoT",
+		"Senti",
+		"IoT",
+		"Service",
+		"Micro Service Service",
+		"NodeJS",
+		"Express",
+		"Micro Service"
+	],
+	"author": {
+		"name": "Christian Broberg",
+		"email": "apisupport@senti.cloud",
+		"url": "https://senti.io/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/senti-iot/senti-service/issues"
+	},
+	"homepage": "https://github.com/senti-iot/senti-service#readme",
+	"dependencies": {
+		"apisauce": "^2.0.1",
+		"cli-table3": "^0.6.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"find-config": "^1.0.0",
+		"helmet": "^4.1.0",
+		"moment": "^2.27.0",
+		"mqtt": "^4.2.1",
+		"senti-apicore": "0.0.55"
+	},
+	"devDependencies": {
+		"eslint": "^6.7.2",
+		"eslint-config-google": "^0.14.0"
+	}
+}

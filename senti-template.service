@@ -1,0 +1,21 @@
+[Unit]
+# senti-service.service
+Description=Senti template
+Documentation=https://github.com/senti-iot/senti-service/blob/master/README.md
+# After=network.target
+
+[Service]
+WorkingDirectory=/srv/nodejs/senti/services/template/production
+ExecStart=/usr/bin/node server.js
+Environment=NODE_PORT=3007
+Environment=NODE_ENV=production
+Type=simple
+Restart=always
+# RestartSec=1
+StartLimitInterval=0
+User=root
+Group=root
+# KillSignal=SIGQUIT
+
+[Install]
+WantedBy=basic.target
