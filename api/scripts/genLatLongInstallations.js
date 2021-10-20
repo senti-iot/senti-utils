@@ -22,36 +22,49 @@ let updateInstallationsQuery = `UPDATE installation
 router.get('/gen-lat-long', async (req, res) => {
 	let installations = await mysqlConn.query(getInstallationsQuery).then(rs => rs[0])
 	let editInst = async i => {
-		if (i.address) {
-			let address = i.address.split(' ')
-			console.log('Address')
-			console.log(address)
-			let dawaData = await dawaApi.get(`adresser?vejnavn=${address[0]}&husnr=${address[1]}&struktur=mini`).then(rs => rs.data)
-			console.log(dawaData[0])
-			if (dawaData[0]) {
-				let dawaAddr = dawaData[0]
-				if (dawaAddr.x && dawaAddr.y) { //lat is y and long is x
-					let updateI = await mysqlConn.query(updateInstallationsQuery, [dawaAddr.y, dawaAddr.x, i.uuid])
-					if (updateI[0].affectedRows > 1) {
-						return true
+		if (!i.lat && !i.long) {
+			if (i.address) {
+				let address = i.address.split(' ')
+				console.log('Address', address)
+				let dawaData = await dawaApi.get(`adresser?vejnavn=${address[0]}&husnr=${address[1]}&struktur=mini`).then(rs => {
+
+					return rs
+
+				})
+
+				// console.log('Data', dawaData[0])
+				if (!dawaData.ok) {
+					return {
+						instUUID: i.uuid,
+						address: address,
+						ok: dawaData.ok,
+						data: dawaData.data
 					}
-					else {
-						return false
+				}
+				if (dawaData.ok && dawaData.data[0]) {
+					let dawaAddr = dawaData[0]
+					if (dawaAddr.x && dawaAddr.y) { //lat is y and long is x
+						await setTimeout(async () => {
+							let updateI = await mysqlConn.query(updateInstallationsQuery, [dawaAddr.y, dawaAddr.x, i.uuid])
+							console.log(updateI[0])
+							return true
+						}, 200)
 					}
+					else return false
 				}
 				else return false
 			}
-			else return false
-		}
-		else {
-			return true
+			else {
+				return {
+					instUUID: i.uuid,
+					address: i.address
+				}
+			}
 		}
 	}
-	let result = await Promise.all(installations.map(i => {
-		console.log(i.uuid)
+	await Promise.all(installations.map(i => {
 		return editInst(i)
-	}))
-	res.status(200).json(result)
+	})).then(rs => res.status(200).json(rs.filter(x => !!x)))
 
 })
 
