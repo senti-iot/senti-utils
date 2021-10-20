@@ -2,19 +2,19 @@
 
 clear
 
-service_name=senti-template.service
+service_name=senti-utils.service
 service_dir=/etc/systemd/system
-server_dir=/srv/nodejs/senti/services/template/production
+server_dir=/srv/nodejs/senti/services/utils/production
 
 service=$service_dir/$service_name
 
-echo Registering Senti template service for production ...
+echo Registering Senti utils service for production ...
 
 
 if [ ! -e "$service" ]; then
 	echo
-    echo "Senti template service is not installed"
-	echo "Installing Senti template service ..."
+    echo "Senti utils service is not installed"
+	echo "Installing Senti utils service ..."
 	sudo cp $server_dir/$service_name $service_dir/$service_name
 	echo "Enabling $service ..."
 	sudo systemctl enable $service_name
@@ -22,7 +22,7 @@ if [ ! -e "$service" ]; then
 	echo "Starting $service ..."
 	sudo systemctl start $service_name
 else
-    echo "Senti template service is already installed"
+    echo "Senti utils service is already installed"
 	echo "Enabling $service ..."
 	sudo systemctl enable $service_name
 	sudo systemctl daemon-reload
