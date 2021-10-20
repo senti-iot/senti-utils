@@ -36,6 +36,9 @@ app.use(cors())
 // API Endpoints
 
 const auth = require('./api/auth/auth')
+const genLatLongInstallations = require('./api/scripts/genLatLongInstallations')
+
+app.use([genLatLongInstallations])
 app.use([auth])
 
 

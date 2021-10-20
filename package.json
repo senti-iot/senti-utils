@@ -33,7 +33,7 @@
 	},
 	"homepage": "https://github.com/senti-iot/senti-service#readme",
 	"dependencies": {
-		"apisauce": "^2.0.1",
+		"apisauce": "^2.1.2",
 		"cli-table3": "^0.6.0",
 		"cors": "^2.8.5",
 		"dotenv": "^8.2.0",
