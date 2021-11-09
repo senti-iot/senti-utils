@@ -24,9 +24,8 @@ router.get('/gen-lat-long', async (req, res) => {
 	let editInst = async i => {
 		if (!i.lat && !i.long) {
 			if (i.address) {
-				let address = i.address.split(' ')
-				console.log('Address', address)
-				let dawaData = await dawaApi.get(`adresser?vejnavn=${address[0]}&husnr=${address[1]}&struktur=mini`).then(rs => {
+				// let dawaData = await dawaApi.get(`adresser?vejnavn=${address[0]}&husnr=${address[1]}&struktur=mini`).then(rs => {
+				let dawaData = await dawaApi.get(`adresser?q=${i.address}, 4750`).then(rs => {
 
 					return rs
 
@@ -36,7 +35,7 @@ router.get('/gen-lat-long', async (req, res) => {
 				if (!dawaData.ok) {
 					return {
 						instUUID: i.uuid,
-						address: address,
+						address: i.address,
 						ok: dawaData.ok,
 						data: dawaData.data
 					}
