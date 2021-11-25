@@ -1,0 +1,237 @@
+{
+	"percentage": {
+		"unit": "procent",
+		"symbol": "%",
+		"isFavorite": true
+	},
+	"meter": {
+		"unit": "meter",
+		"symbol": "m",
+		"isFavorite": true
+	},
+	"gram": {
+		"unit": "gram",
+		"symbol": "g",
+		"isFavorite": true
+	},
+	"kilogram": {
+		"unit": "kilogram",
+		"symbol": "kg",
+		"isFavorite": true
+	},
+	"ton": {
+		"unit": "ton",
+		"symbol": "t",
+		"isFavorite": true
+	},
+	"second": {
+		"unit": "sekund",
+		"symbol": "s",
+		"isFavorite": true
+	},
+	"minute": {
+		"unit": "minut",
+		"symbol": "min",
+		"isFavorite": true
+	},
+	"hour": {
+		"unit": "time",
+		"symbol": "h",
+		"isFavorite": true
+	},
+	"day": {
+		"unit": "dag",
+		"symbol": "d",
+		"isFavorite": true
+	},
+	"ampere": {
+		"unit": "ampere",
+		"symbol": "A",
+		"isFavorite": true
+	},
+	"kelvin": {
+		"unit": "kelvin",
+		"symbol": "°K",
+		"isFavorite": false
+	},
+	"fahrenheit": {
+		"unit": "fahrenheit",
+		"symbol": "°F",
+		"isFavorite": false
+	},
+	"celsius": {
+		"unit": "celsius",
+		"symbol": "°C",
+		"isFavorite": true
+	},
+	"mole": {
+		"unit": "mol",
+		"symbol": "mol",
+		"isFavorite": false
+	},
+	"candela": {
+		"unit": "candela",
+		"symbol": "cd",
+		"isFavorite": false
+	},
+	"liter": {
+		"unit": "liter",
+		"symbol": "L",
+		"isFavorite": true
+	},
+	"cubicMeter": {
+		"unit": "kubikmeter",
+		"symbol": "m3",
+		"isFavorite": true
+	},
+	"acres": {
+		"unit": "hektar",
+		"symbol": "ha",
+		"isFavorite": false
+	},
+	"squareMeter": {
+		"unit": "kvadratmeter",
+		"symbol": "m2",
+		"isFavorite": true
+	},
+	"degrees": {
+		"unit": "grader",
+		"symbol": "°",
+		"isFavorite": false
+	},
+	"radian": {
+		"unit": "radian",
+		"symbol": "rad",
+		"isFavorite": false
+	},
+	"steradian": {
+		"unit": "steradian",
+		"symbol": "sr",
+		"isFavorite": false
+	},
+	"hertz": {
+		"unit": "hertz",
+		"symbol": "Hz",
+		"isFavorite": true
+	},
+	"newton": {
+		"unit": "newton",
+		"symbol": "N",
+		"isFavorite": false
+	},
+	"pascal": {
+		"unit": "pascal",
+		"symbol": "Pa",
+		"isFavorite": false
+	},
+	"joule": {
+		"unit": "joule",
+		"symbol": "J",
+		"isFavorite": false
+	},
+	"electronVolt": {
+		"unit": "elektron volt",
+		"symbol": "eV",
+		"isFavorite": false
+	},
+	"watt": {
+		"unit": "watt",
+		"symbol": "W",
+		"isFavorite": true
+	},
+	"coulomb": {
+		"unit": "coulomb",
+		"symbol": "C",
+		"isFavorite": false
+	},
+	"volt": {
+		"unit": "volt",
+		"symbol": "V",
+		"isFavorite": true
+	},
+	"farad": {
+		"unit": "farad",
+		"symbol": "F",
+		"isFavorite": false
+	},
+	"ohm": {
+		"unit": "ohm",
+		"symbol": "Ω",
+		"isFavorite": false
+	},
+	"siemens": {
+		"unit": "siemens",
+		"symbol": "S",
+		"isFavorite": false
+	},
+	"weber": {
+		"unit": "weber",
+		"symbol": "Wb",
+		"isFavorite": false
+	},
+	"tesla": {
+		"unit": "tesla",
+		"symbol": "T",
+		"isFavorite": false
+	},
+	"henry": {
+		"unit": "henry",
+		"symbol": "H",
+		"isFavorite": false
+	},
+	"lumen": {
+		"unit": "lumen",
+		"symbol": "lm",
+		"isFavorite": true
+	},
+	"lux": {
+		"unit": "lux",
+		"symbol": "lx",
+		"isFavorite": true
+	},
+	"becquerel": {
+		"unit": "becquerel",
+		"symbol": "Bq",
+		"isFavorite": false
+	},
+	"gray": {
+		"unit": "gray",
+		"symbol": "Gy",
+		"isFavorite": false
+	},
+	"sievert": {
+		"unit": "sievert",
+		"symbol": "Sv",
+		"isFavorite": false
+	},
+	"katal": {
+		"unit": "katal",
+		"symbol": "kat",
+		"isFavorite": false
+	},
+	"decibel": {
+		"unit": "decibel",
+		"symbol": "dB",
+		"isFavorite": true
+	},
+	"byte": {
+		"unit": "byte",
+		"symbol": "b",
+		"isFavorite": true
+	},
+	"bit": {
+		"unit": "bit",
+		"symbol": "bit",
+		"isFavorite": true
+	},
+	"co2": {
+		"unit": "co2",
+		"symbol": "ppm",
+		"isFavorite": true
+	},
+	"meterPerSecond": {
+		"unit": "meter i sekundet",
+		"symbol": "m/s",
+		"isFavorite": false
+	}
+}
