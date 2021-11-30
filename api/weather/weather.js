@@ -1,10 +1,9 @@
-require('dotenv').load()
 const create = require('apisauce').create
 const express = require('express')
 const router = express.Router()
 
 const { WEATHER_API } = process.env
-const weatherRoute = '/:date/:lat/:long/:lang'
+const weatherRoute = '/weather/:date/:lat/:long/:lang'
 
 const api = create({
 	baseURL: `https://api.darksky.net/forecast/${WEATHER_API}/`,
