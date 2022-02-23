@@ -22,7 +22,7 @@ if [ ! -e "$service" ]; then
 	echo "Starting $service ..."
 	sudo systemctl start $service_name
 else
-    echo "Senti utils service is already installed"
+	echo "Installing Senti utils service ..."
 	sudo cp $server_dir/$service_name $service_dir/$service_name
 	echo "Enabling $service ..."
 	sudo systemctl enable $service_name
