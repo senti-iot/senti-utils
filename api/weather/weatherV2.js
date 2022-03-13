@@ -76,7 +76,7 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + req.params.from + '/' + req.params.to + '&parameterId=' + type).then(rs => rs.data);
 
 		if (data) {
-			data.data.features.map(d => {
+			data.features.map(d => {
 				result.push({ date: d.properties.observed, value: d.properties.value });
 			});
 		}
