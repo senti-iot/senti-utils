@@ -38,10 +38,12 @@ app.use(cors())
 const auth = require('./api/auth/auth')
 const genLatLongInstallations = require('./api/scripts/genLatLongInstallations')
 const weather = require('./api/weather/weather')
+const weatherV2 = require('./api/weather/weatherV2')
 
 app.use([genLatLongInstallations])
 app.use([auth])
 app.use([weather])
+app.use([weatherV2])
 
 
 //---Start the express server---------------------------------------------------
