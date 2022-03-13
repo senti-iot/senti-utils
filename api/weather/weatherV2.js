@@ -73,7 +73,10 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 			type = 'weather';
 		}
 
-		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + req.params.from + '/' + req.params.to + '&parameterId=' + type).then(rs => rs.data);
+		const from = moment(req.params.from).format('YYYY-MM-DDTHH:mm:ss[Z]');
+		const to = moment(req.params.to).format('YYYY-MM-DDTHH:mm:ss[Z]');
+
+		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + from + '/' + to + '&parameterId=' + type).then(rs => rs.data);
 
 		if (data) {
 			data.features.map(d => {
