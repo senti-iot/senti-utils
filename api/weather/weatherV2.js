@@ -73,6 +73,8 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 			type = 'weather';
 		}
 
+		console.log(api);
+		console.log(api.headers);
 		console.log('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + req.params.from + '/' + req.params.to + '&parameterId=' + type);
 		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + req.params.from + '/' + req.params.to + '&parameterId=' + type).then(rs => rs);
 		console.log(data.data);
