@@ -62,13 +62,13 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 	if (nearest) {
 		let type = '';
 		if (req.params.parameterId === 'temperature') {
-			type = 'temp_dry';
+			type = 'temp_mean_past1h';
 		} else if (req.params.parameterId === 'humidity') {
-			type = 'humidity';
+			type = 'humidity_past1h';
 		} else if (req.params.parameterId === 'wind') {
-			type = 'wind_dir';
+			type = 'wind_dir_past1h';
 		} else if (req.params.parameterId === 'visibility') {
-			type = 'visibility';
+			type = 'visib_mean_last10min';
 		} else if (req.params.parameterId === 'weather') {
 			type = 'weather';
 		}
