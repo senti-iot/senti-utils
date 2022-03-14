@@ -95,12 +95,19 @@ router.get('/weather/v2/stations', async (req, res) => {
 
 	if (data) {
 		data.features.map(d => {
-			result.push({
-				stationId: d.properties.stationId,
-				name: d.properties.name,
-				lat: d.geometry.coordinates[1],
-				long: d.geometry.coordinates[0],
-			});
+			if (d.properties.parameterId.includes('temp_dry') ||
+				d.properties.parameterId.includes('humidity') ||
+				d.properties.parameterId.includes('wind_dir') ||
+				d.properties.parameterId.includes('visibility') ||
+				d.properties.parameterId.includes('weather')) {
+
+				result.push({
+					stationId: d.properties.stationId,
+					name: d.properties.name,
+					lat: d.geometry.coordinates[1],
+					long: d.geometry.coordinates[0],
+				});
+			}
 		});
 	}
 

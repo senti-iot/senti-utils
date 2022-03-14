@@ -1,45 +1,9 @@
 [
   {
-    "stationId": "31040",
-    "name": "Møllebjerggård",
-    "lat": 55.2932,
-    "long": 12.4223
-  },
-  {
-    "stationId": "30215",
-    "name": "Meteorologisk Institut",
-    "lat": 55.7161,
-    "long": 12.5622
-  },
-  {
-    "stationId": "05450",
-    "name": "Søndenbro",
-    "lat": 54.7567,
-    "long": 10.7094
-  },
-  {
-    "stationId": "05529",
-    "name": "Havnsø",
-    "lat": 55.7489,
-    "long": 11.3374
-  },
-  {
     "stationId": "06034",
     "name": "Sindal Lufthavn",
     "lat": 57.5044,
     "long": 10.2228
-  },
-  {
-    "stationId": "21430",
-    "name": "Grønbæk",
-    "lat": 56.2745,
-    "long": 9.6315
-  },
-  {
-    "stationId": "06187",
-    "name": "Københavns Toldbod",
-    "lat": 55.6886,
-    "long": 12.5985
   },
   {
     "stationId": "06154",
@@ -48,46 +12,10 @@
     "long": 11.8605
   },
   {
-    "stationId": "30414",
-    "name": "Roskilde",
-    "lat": 55.6429,
-    "long": 12.0424
-  },
-  {
-    "stationId": "23160",
-    "name": "Hesseballe",
-    "lat": 55.8314,
-    "long": 9.5533
-  },
-  {
-    "stationId": "05355",
-    "name": "Emmerlev Klev",
-    "lat": 54.9872,
-    "long": 8.6652
-  },
-  {
-    "stationId": "24171",
-    "name": "Grønbjerg",
-    "lat": 56.184,
-    "long": 8.4863
-  },
-  {
-    "stationId": "25045",
-    "name": "Outrup",
-    "lat": 55.723,
-    "long": 8.3327
-  },
-  {
     "stationId": "06072",
     "name": "Ødum",
     "lat": 56.3027,
     "long": 10.1272
-  },
-  {
-    "stationId": "20030",
-    "name": "Uggerby",
-    "lat": 57.5705,
-    "long": 10.1073
   },
   {
     "stationId": "06181",
@@ -96,28 +24,10 @@
     "long": 12.5263
   },
   {
-    "stationId": "30075",
-    "name": "Græsted",
-    "lat": 56.0428,
-    "long": 12.2918
-  },
-  {
-    "stationId": "34270",
-    "name": "Narsarsuaq",
-    "lat": 61.1575,
-    "long": -45.44
-  },
-  {
     "stationId": "06096",
     "name": "Rømø/Juvre",
     "lat": 55.1904,
     "long": 8.5599
-  },
-  {
-    "stationId": "05505",
-    "name": "Tåstrup Huse",
-    "lat": 55.5633,
-    "long": 11.709
   },
   {
     "stationId": "06093",
@@ -126,28 +36,10 @@
     "long": 8.6551
   },
   {
-    "stationId": "05575",
-    "name": "Græsted",
-    "lat": 56.0429,
-    "long": 12.2918
-  },
-  {
-    "stationId": "05290",
-    "name": "Semb",
-    "lat": 56.6553,
-    "long": 8.5476
-  },
-  {
     "stationId": "04339",
     "name": "Ittoqqortoormiit",
     "lat": 70.4844,
     "long": -21.9511
-  },
-  {
-    "stationId": "31350",
-    "name": "Tjennemarke",
-    "lat": 54.8073,
-    "long": 11.3405
   },
   {
     "stationId": "06058",
@@ -156,82 +48,10 @@
     "long": 8.1413
   },
   {
-    "stationId": "05015",
-    "name": "Lendum",
-    "lat": 57.4029,
-    "long": 10.2704
-  },
-  {
-    "stationId": "05994",
-    "name": "Østerlars",
-    "lat": 55.163,
-    "long": 14.9683
-  },
-  {
-    "stationId": "05343",
-    "name": "Holsted",
-    "lat": 55.4929,
-    "long": 8.9036
-  },
-  {
-    "stationId": "05329",
-    "name": "Outrup",
-    "lat": 55.723,
-    "long": 8.3327
-  },
-  {
-    "stationId": "31509",
-    "name": "Bjørup",
-    "lat": 54.779,
-    "long": 11.9315
-  },
-  {
-    "stationId": "05105",
-    "name": "Erslev",
-    "lat": 56.8334,
-    "long": 8.7296
-  },
-  {
-    "stationId": "05305",
-    "name": "Grønbjerg",
-    "lat": 56.1837,
-    "long": 8.4871
-  },
-  {
-    "stationId": "28188",
-    "name": "Næsbyhoved-Broby",
-    "lat": 55.4392,
-    "long": 10.3063
-  },
-  {
-    "stationId": "05009",
-    "name": "Nørre Lyngby N",
-    "lat": 57.4219,
-    "long": 9.7612
-  },
-  {
-    "stationId": "22410",
-    "name": "Flensted",
-    "lat": 56.1496,
-    "long": 9.7876
-  },
-  {
     "stationId": "06120",
     "name": "H. C. Andersen Airport",
     "lat": 55.4748,
     "long": 10.3304
-  },
-  {
-    "stationId": "05935",
-    "name": "Køng",
-    "lat": 55.0987,
-    "long": 11.8285
-  },
-  {
-    "stationId": "05986",
-    "name": "Neble",
-    "lat": 54.96,
-    "long": 12.24
   },
   {
     "stationId": "06081",
@@ -246,28 +66,10 @@
     "long": 8.3207
   },
   {
-    "stationId": "23360",
-    "name": "Haderslev",
-    "lat": 55.2561,
-    "long": 9.4715
-  },
-  {
-    "stationId": "05081",
-    "name": "Gatten",
-    "lat": 56.879,
-    "long": 9.4041
-  },
-  {
     "stationId": "04351",
     "name": "Aputiteeq",
     "lat": 67.7817,
     "long": -32.2842
-  },
-  {
-    "stationId": "34320",
-    "name": "Danmarkshavn",
-    "lat": 76.7694,
-    "long": -18.6681
   },
   {
     "stationId": "06151",
@@ -282,58 +84,10 @@
     "long": 8.4
   },
   {
-    "stationId": "20315",
-    "name": "Klarup",
-    "lat": 57.0105,
-    "long": 10.0351
-  },
-  {
-    "stationId": "22020",
-    "name": "Hald",
-    "lat": 56.5664,
-    "long": 10.0983
-  },
-  {
-    "stationId": "30187",
-    "name": "Kettinge",
-    "lat": 55.8796,
-    "long": 12.4115
-  },
-  {
-    "stationId": "29020",
-    "name": "Kollekolle",
-    "lat": 55.8686,
-    "long": 11.6064
-  },
-  {
-    "stationId": "20055",
-    "name": "Nørre Lyngby N",
-    "lat": 57.4185,
-    "long": 9.7608
-  },
-  {
     "stationId": "06180",
     "name": "Københavns Lufthavn",
     "lat": 55.614,
     "long": 12.6455
-  },
-  {
-    "stationId": "05135",
-    "name": "Grønbæk",
-    "lat": 56.2763,
-    "long": 9.6213
-  },
-  {
-    "stationId": "05169",
-    "name": "Hov",
-    "lat": 55.9117,
-    "long": 10.2565
-  },
-  {
-    "stationId": "28110",
-    "name": "Båring",
-    "lat": 55.4927,
-    "long": 9.8948
   },
   {
     "stationId": "06118",
@@ -366,12 +120,6 @@
     "long": 11.3292
   },
   {
-    "stationId": "20000",
-    "name": "Skagen Fyr",
-    "lat": 57.7363,
-    "long": 10.6318
-  },
-  {
     "stationId": "04253",
     "name": "Ukiiviit",
     "lat": 62.5789,
@@ -384,34 +132,10 @@
     "long": 15.0953
   },
   {
-    "stationId": "05075",
-    "name": "Hannerup",
-    "lat": 56.6509,
-    "long": 9.7012
-  },
-  {
-    "stationId": "05345",
-    "name": "Ribe Renseanlæg",
-    "lat": 55.329,
-    "long": 8.7436
-  },
-  {
-    "stationId": "05220",
-    "name": "Juelsminde",
-    "lat": 55.7102,
-    "long": 9.9962
-  },
-  {
     "stationId": "06080",
     "name": "Esbjerg Lufthavn",
     "lat": 55.5281,
     "long": 8.5626
-  },
-  {
-    "stationId": "05070",
-    "name": "Havnø",
-    "lat": 56.7157,
-    "long": 10.1644
   },
   {
     "stationId": "06049",
@@ -420,64 +144,16 @@
     "long": 10.0929
   },
   {
-    "stationId": "05160",
-    "name": "Sibirien",
-    "lat": 56.1103,
-    "long": 10.5466
-  },
-  {
-    "stationId": "31199",
-    "name": "Orup",
-    "lat": 55.2074,
-    "long": 12.0979
-  },
-  {
-    "stationId": "05031",
-    "name": "Byrum",
-    "lat": 57.2746,
-    "long": 11.0292
-  },
-  {
-    "stationId": "20279",
-    "name": "Møllegård Huse",
-    "lat": 56.9556,
-    "long": 10.2275
-  },
-  {
-    "stationId": "05545",
-    "name": "Kollekolle",
-    "lat": 55.8687,
-    "long": 11.6064
-  },
-  {
     "stationId": "04313",
     "name": "Henrik Krøyer Holme",
     "lat": 80.6494,
     "long": -13.7119
   },
   {
-    "stationId": "05945",
-    "name": "Nørreby",
-    "lat": 54.98,
-    "long": 11.5336
-  },
-  {
-    "stationId": "21020",
-    "name": "Lild Strand",
-    "lat": 57.1518,
-    "long": 8.9649
-  },
-  {
     "stationId": "06073",
     "name": "Sletterhage Fyr",
     "lat": 56.0955,
     "long": 10.5135
-  },
-  {
-    "stationId": "23133",
-    "name": "Juelsminde",
-    "lat": 55.7102,
-    "long": 9.9962
   },
   {
     "stationId": "06119",
@@ -490,18 +166,6 @@
     "name": "Anholt Havn",
     "lat": 56.7169,
     "long": 11.5098
-  },
-  {
-    "stationId": "24430",
-    "name": "Høgild",
-    "lat": 56.0627,
-    "long": 8.9855
-  },
-  {
-    "stationId": "31400",
-    "name": "Nakskov",
-    "lat": 54.826,
-    "long": 11.1541
   },
   {
     "stationId": "06149",
@@ -522,52 +186,10 @@
     "long": -20.2169
   },
   {
-    "stationId": "05035",
-    "name": "Voerså Hede",
-    "lat": 57.2215,
-    "long": 10.471
-  },
-  {
-    "stationId": "28240",
-    "name": "Juelsberg",
-    "lat": 55.3474,
-    "long": 10.7618
-  },
-  {
-    "stationId": "24102",
-    "name": "Holstebro",
-    "lat": 56.3534,
-    "long": 8.6201
-  },
-  {
-    "stationId": "21368",
-    "name": "Flyvestation Karup",
-    "lat": 56.2934,
-    "long": 9.1139
-  },
-  {
     "stationId": "06123",
     "name": "Assens/Torø",
     "lat": 55.2444,
     "long": 9.8882
-  },
-  {
-    "stationId": "05510",
-    "name": "Rye",
-    "lat": 55.5266,
-    "long": 11.2383
-  },
-  {
-    "stationId": "05395",
-    "name": "Hajstrup",
-    "lat": 55.2555,
-    "long": 9.6684
-  },
-  {
-    "stationId": "05889",
-    "name": "Orup",
-    "lat": 55.2076,
-    "long": 12.0981
   },
   {
     "stationId": "04285",
@@ -588,12 +210,6 @@
     "long": 12.3424
   },
   {
-    "stationId": "21100",
-    "name": "Vestervig",
-    "lat": 56.7637,
-    "long": 8.3207
-  },
-  {
     "stationId": "06156",
     "name": "Holbæk Flyveplads",
     "lat": 55.7358,
@@ -606,58 +222,16 @@
     "long": 12.4121
   },
   {
-    "stationId": "29330",
-    "name": "Rye",
-    "lat": 55.5184,
-    "long": 11.2341
-  },
-  {
     "stationId": "06031",
     "name": "Tylstrup",
     "lat": 57.1852,
     "long": 9.9527
   },
   {
-    "stationId": "05435",
-    "name": "Bøjden",
-    "lat": 55.0978,
-    "long": 10.1009
-  },
-  {
-    "stationId": "05375",
-    "name": "Nørreløkke",
-    "lat": 55.0646,
-    "long": 9.68
-  },
-  {
-    "stationId": "05735",
-    "name": "Livgardens Kaserne",
-    "lat": 55.6858,
-    "long": 12.5768
-  },
-  {
-    "stationId": "05150",
-    "name": "Hevringholm",
-    "lat": 56.5062,
-    "long": 10.4403
-  },
-  {
     "stationId": "06136",
     "name": "Tystofte",
     "lat": 55.2465,
     "long": 11.3285
-  },
-  {
-    "stationId": "05406",
-    "name": "Tørresø",
-    "lat": 55.5815,
-    "long": 10.393
-  },
-  {
-    "stationId": "25339",
-    "name": "Ribe Renseanlæg",
-    "lat": 55.3286,
-    "long": 8.7433
   },
   {
     "stationId": "06169",
@@ -672,18 +246,6 @@
     "long": -18.6681
   },
   {
-    "stationId": "05199",
-    "name": "Gludsted Plantage Nv",
-    "lat": 56.0761,
-    "long": 9.3298
-  },
-  {
-    "stationId": "05880",
-    "name": "Møllebjerggård",
-    "lat": 55.2931,
-    "long": 12.4218
-  },
-  {
     "stationId": "06070",
     "name": "Århus Lufthavn",
     "lat": 56.3083,
@@ -696,40 +258,10 @@
     "long": 9.3338
   },
   {
-    "stationId": "20670",
-    "name": "Havnø",
-    "lat": 56.7157,
-    "long": 10.1645
-  },
-  {
-    "stationId": "28590",
-    "name": "Rudkøbing",
-    "lat": 54.9462,
-    "long": 10.7234
-  },
-  {
-    "stationId": "05095",
-    "name": "Nørre Vorupør",
-    "lat": 56.951,
-    "long": 8.3769
-  },
-  {
     "stationId": "04373",
     "name": "Ikermit",
     "lat": 64.7819,
     "long": -40.3017
-  },
-  {
-    "stationId": "28552",
-    "name": "Søndenbro",
-    "lat": 54.7567,
-    "long": 10.7094
-  },
-  {
-    "stationId": "20600",
-    "name": "Mørkeskov",
-    "lat": 56.8136,
-    "long": 9.8247
   },
   {
     "stationId": "04250",
@@ -738,28 +270,10 @@
     "long": -51.7308
   },
   {
-    "stationId": "26340",
-    "name": "Bredebro",
-    "lat": 55.0561,
-    "long": 8.8326
-  },
-  {
     "stationId": "06138",
     "name": "Langø",
     "lat": 54.8205,
     "long": 10.9939
-  },
-  {
-    "stationId": "05350",
-    "name": "Bredebro",
-    "lat": 55.0562,
-    "long": 8.8327
-  },
-  {
-    "stationId": "05365",
-    "name": "Kliplev",
-    "lat": 54.9316,
-    "long": 9.4116
   },
   {
     "stationId": "06023",
@@ -768,64 +282,10 @@
     "long": 4.7587
   },
   {
-    "stationId": "05970",
-    "name": "Rødbyhavn",
-    "lat": 54.6573,
-    "long": 11.3515
-  },
-  {
-    "stationId": "24380",
-    "name": "Tarm",
-    "lat": 55.9114,
-    "long": 8.511
-  },
-  {
-    "stationId": "05300",
-    "name": "Øby",
-    "lat": 56.2601,
-    "long": 8.1653
-  },
-  {
-    "stationId": "05408",
-    "name": "H. C. Andersen Airport",
-    "lat": 55.4749,
-    "long": 10.3305
-  },
-  {
-    "stationId": "05272",
-    "name": "Brande",
-    "lat": 55.9654,
-    "long": 9.1168
-  },
-  {
-    "stationId": "05005",
-    "name": "Uggerby",
-    "lat": 57.5705,
-    "long": 10.1074
-  },
-  {
     "stationId": "04382",
     "name": "Ikermiuarssuk",
     "lat": 61.9364,
     "long": -42.0678
-  },
-  {
-    "stationId": "05440",
-    "name": "Ulbølle",
-    "lat": 55.0721,
-    "long": 10.4249
-  },
-  {
-    "stationId": "05537",
-    "name": "Mørkøv Syd",
-    "lat": 55.6366,
-    "long": 11.4942
-  },
-  {
-    "stationId": "31570",
-    "name": "Rødbyhavn",
-    "lat": 54.6573,
-    "long": 11.3515
   },
   {
     "stationId": "06104",
@@ -840,36 +300,6 @@
     "long": -52.5286
   },
   {
-    "stationId": "05042",
-    "name": "Møllegård Huse",
-    "lat": 56.9564,
-    "long": 10.2232
-  },
-  {
-    "stationId": "21100",
-    "name": "Vestervig",
-    "lat": 56.7793,
-    "long": 8.3316
-  },
-  {
-    "stationId": "05185",
-    "name": "Flensted",
-    "lat": 56.1496,
-    "long": 9.7875
-  },
-  {
-    "stationId": "26210",
-    "name": "Rangstrup",
-    "lat": 55.147,
-    "long": 9.2057
-  },
-  {
-    "stationId": "05065",
-    "name": "Mørkeskov",
-    "lat": 56.814,
-    "long": 9.8245
-  },
-  {
     "stationId": "06019",
     "name": "Silstrup",
     "lat": 56.93,
@@ -882,30 +312,6 @@
     "long": 12.1366
   },
   {
-    "stationId": "22162",
-    "name": "Sibirien",
-    "lat": 56.1103,
-    "long": 10.5466
-  },
-  {
-    "stationId": "20561",
-    "name": "Hannerup",
-    "lat": 56.6509,
-    "long": 9.7012
-  },
-  {
-    "stationId": "05202",
-    "name": "Nørre Snede",
-    "lat": 55.9603,
-    "long": 9.3768
-  },
-  {
-    "stationId": "22080",
-    "name": "Hevringsholm",
-    "lat": 56.5062,
-    "long": 10.4403
-  },
-  {
     "stationId": "04312",
     "name": "Station Nord",
     "lat": 81.6033,
@@ -916,36 +322,6 @@
     "name": "Narsarsuaq Radiosonde",
     "lat": 61.1575,
     "long": -45.44
-  },
-  {
-    "stationId": "28385",
-    "name": "Bøjden",
-    "lat": 55.0977,
-    "long": 10.1024
-  },
-  {
-    "stationId": "05455",
-    "name": "Rudkøbing",
-    "lat": 54.9463,
-    "long": 10.7234
-  },
-  {
-    "stationId": "24490",
-    "name": "Blåhøj Kirkeby",
-    "lat": 55.8527,
-    "long": 9.0162
-  },
-  {
-    "stationId": "25161",
-    "name": "Oksvang Andrup",
-    "lat": 55.5213,
-    "long": 8.5231
-  },
-  {
-    "stationId": "05296",
-    "name": "Trans",
-    "lat": 56.5032,
-    "long": 8.1465
   },
   {
     "stationId": "06068",
@@ -966,52 +342,10 @@
     "long": -48.4544
   },
   {
-    "stationId": "20085",
-    "name": "Lendum",
-    "lat": 57.4029,
-    "long": 10.2705
-  },
-  {
-    "stationId": "21080",
-    "name": "Nørre Vorupør",
-    "lat": 56.951,
-    "long": 8.3769
-  },
-  {
-    "stationId": "05320",
-    "name": "Skovlund",
-    "lat": 55.7246,
-    "long": 8.6932
-  },
-  {
     "stationId": "04360",
     "name": "Tasiilaq",
     "lat": 65.6111,
     "long": -37.6367
-  },
-  {
-    "stationId": "05089",
-    "name": "Lild Strand",
-    "lat": 57.1518,
-    "long": 8.9649
-  },
-  {
-    "stationId": "23100",
-    "name": "Vestbirk",
-    "lat": 55.961,
-    "long": 9.7021
-  },
-  {
-    "stationId": "29194",
-    "name": "Mørkøv Syd",
-    "lat": 55.639,
-    "long": 11.4935
-  },
-  {
-    "stationId": "27008",
-    "name": "Byrum",
-    "lat": 57.2746,
-    "long": 11.0292
   },
   {
     "stationId": "06135",
@@ -1020,40 +354,10 @@
     "long": 11.3879
   },
   {
-    "stationId": "05140",
-    "name": "Hald",
-    "lat": 56.5665,
-    "long": 10.1004
-  },
-  {
-    "stationId": "05499",
-    "name": "Mulstrup",
-    "lat": 55.4026,
-    "long": 11.8648
-  },
-  {
-    "stationId": "05276",
-    "name": "Voulund Testfelt P",
-    "lat": 56.0372,
-    "long": 9.1594
-  },
-  {
     "stationId": "06174",
     "name": "Tessebølle",
     "lat": 55.3955,
     "long": 12.149
-  },
-  {
-    "stationId": "05205",
-    "name": "Vestbirk",
-    "lat": 55.961,
-    "long": 9.7022
-  },
-  {
-    "stationId": "05269",
-    "name": "Blåhøj Kirkeby",
-    "lat": 55.8528,
-    "long": 9.0162
   },
   {
     "stationId": "06124",
@@ -1080,24 +384,6 @@
     "long": 9.1229
   },
   {
-    "stationId": "05400",
-    "name": "Båring",
-    "lat": 55.4935,
-    "long": 9.8953
-  },
-  {
-    "stationId": "24043",
-    "name": "Semb",
-    "lat": 56.6553,
-    "long": 8.5476
-  },
-  {
-    "stationId": "21120",
-    "name": "Erslev",
-    "lat": 56.8334,
-    "long": 8.7297
-  },
-  {
     "stationId": "06056",
     "name": "Mejrup",
     "lat": 56.383,
@@ -1108,12 +394,6 @@
     "name": "Landbohøjskolen",
     "lat": 55.6861,
     "long": 12.5439
-  },
-  {
-    "stationId": "20375",
-    "name": "Brovst",
-    "lat": 57.0945,
-    "long": 9.5253
   },
   {
     "stationId": "06065",
@@ -1128,28 +408,10 @@
     "long": 10.6316
   },
   {
-    "stationId": "34339",
-    "name": "Ittoqqortoormiit",
-    "lat": 70.4844,
-    "long": -21.9511
-  },
-  {
     "stationId": "04214",
     "name": "Nuussuaq",
     "lat": 70.6561,
     "long": -54.6
-  },
-  {
-    "stationId": "29440",
-    "name": "Tystofte",
-    "lat": 55.2465,
-    "long": 11.3284
-  },
-  {
-    "stationId": "25270",
-    "name": "Askov",
-    "lat": 55.471,
-    "long": 9.0906
   },
   {
     "stationId": "06159",
@@ -1158,46 +420,10 @@
     "long": 10.8694
   },
   {
-    "stationId": "31185",
-    "name": "Køng",
-    "lat": 55.0984,
-    "long": 11.8285
-  },
-  {
-    "stationId": "22232",
-    "name": "Ødum",
-    "lat": 56.308,
-    "long": 10.1292
-  },
-  {
-    "stationId": "24142",
-    "name": "Øby",
-    "lat": 56.2604,
-    "long": 8.1659
-  },
-  {
-    "stationId": "05225",
-    "name": "Hesselballe",
-    "lat": 55.8311,
-    "long": 9.5531
-  },
-  {
     "stationId": "06193",
     "name": "Hammer Odde Fyr",
     "lat": 55.2979,
     "long": 14.7718
-  },
-  {
-    "stationId": "31259",
-    "name": "Neble",
-    "lat": 54.9595,
-    "long": 12.245
-  },
-  {
-    "stationId": "05085",
-    "name": "Aggersund",
-    "lat": 57.0143,
-    "long": 9.2877
   },
   {
     "stationId": "06102",
@@ -1212,34 +438,10 @@
     "long": 10.1353
   },
   {
-    "stationId": "20228",
-    "name": "Voerså Hede",
-    "lat": 57.2214,
-    "long": 10.4708
-  },
-  {
-    "stationId": "05381",
-    "name": "Rangstrup",
-    "lat": 55.147,
-    "long": 9.2057
-  },
-  {
-    "stationId": "32175",
-    "name": "Østerlars",
-    "lat": 55.1635,
-    "long": 14.97
-  },
-  {
     "stationId": "06126",
     "name": "Årslev",
     "lat": 55.3088,
     "long": 10.4398
-  },
-  {
-    "stationId": "32110",
-    "name": "Vestermarie",
-    "lat": 55.1069,
-    "long": 14.8205
   },
   {
     "stationId": "04301",
@@ -1260,58 +462,10 @@
     "long": -53.965
   },
   {
-    "stationId": "05469",
-    "name": "Juelsberg",
-    "lat": 55.3474,
-    "long": 10.7618
-  },
-  {
-    "stationId": "05165",
-    "name": "Tranebjerg Øst",
-    "lat": 55.8322,
-    "long": 10.6185
-  },
-  {
     "stationId": "06052",
     "name": "Thyborøn",
     "lat": 56.7068,
     "long": 8.215
-  },
-  {
-    "stationId": "20400",
-    "name": "Aggersund",
-    "lat": 57.0143,
-    "long": 9.2889
-  },
-  {
-    "stationId": "22189",
-    "name": "Tirstrup",
-    "lat": 56.3037,
-    "long": 10.6619
-  },
-  {
-    "stationId": "27082",
-    "name": "Tranebjerg Øst",
-    "lat": 55.8322,
-    "long": 10.6185
-  },
-  {
-    "stationId": "29243",
-    "name": "Mulstrup",
-    "lat": 55.4026,
-    "long": 11.8648
-  },
-  {
-    "stationId": "21208",
-    "name": "Skive Lufthavn",
-    "lat": 56.5446,
-    "long": 9.1916
-  },
-  {
-    "stationId": "26358",
-    "name": "Emmerlev Klev",
-    "lat": 54.9872,
-    "long": 8.6652
   },
   {
     "stationId": "06147",
@@ -1320,45 +474,15 @@
     "long": 12.1841
   },
   {
-    "stationId": "05109",
-    "name": "Junget",
-    "lat": 56.7637,
-    "long": 9.0945
-  },
-  {
     "stationId": "04272",
     "name": "Qaqortoq",
     "lat": 60.7156,
     "long": -46.0489
   },
   {
-    "stationId": "05277",
-    "name": "Høgild",
-    "lat": 56.0626,
-    "long": 8.9854
-  },
-  {
-    "stationId": "26450",
-    "name": "Nørreløkke",
-    "lat": 55.0646,
-    "long": 9.6811
-  },
-  {
     "stationId": "06082",
     "name": "Borris",
     "lat": 55.9591,
     "long": 8.6242
-  },
-  {
-    "stationId": "20552",
-    "name": "Års Syd",
-    "lat": 56.7575,
-    "long": 9.5059
-  },
-  {
-    "stationId": "21160",
-    "name": "Junget",
-    "lat": 56.7637,
-    "long": 9.0946
   }
 ]
