@@ -76,6 +76,8 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 		const from = moment(req.params.from).format('YYYY-MM-DDTHH:mm:ss[Z]');
 		const to = moment(req.params.to).format('YYYY-MM-DDTHH:mm:ss[Z]');
 
+		console.log('nearest station: ', nearest.station.name, nearest.station.id, nearest.station.lat, nearest.station.long);
+
 		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + from + '/' + to + '&parameterId=' + type).then(rs => rs.data);
 
 		if (data) {
