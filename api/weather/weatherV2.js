@@ -2,6 +2,7 @@ const create = require('apisauce').create;
 const express = require('express');
 const router = express.Router();
 const moment = require('moment');
+const { parse } = require('json2csv');
 
 const { WEATHER_APIV2 } = process.env;
 
@@ -35,7 +36,7 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 	}
 }
 
-router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => {
+const getWeatherData = async (from, to, lat, long, parameterId) => {
 	let result = [];
 
 	const fs = require("fs");
@@ -45,7 +46,7 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 
 	let nearest = null;
 	stations.map(station => {
-		const dist = distance(station.lat, station.long, req.params.lat, req.params.long, "K");
+		const dist = distance(station.lat, station.long, lat, long, "K");
 
 		if (!nearest) {
 			nearest = {};
@@ -61,22 +62,22 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 
 	if (nearest) {
 		let type = '';
-		if (req.params.parameterId === 'temperature') {
+		if (parameterId === 'temperature') {
 			type = 'temp_mean_past1h';
-		} else if (req.params.parameterId === 'humidity') {
+		} else if (parameterId === 'humidity') {
 			type = 'humidity_past1h';
-		} else if (req.params.parameterId === 'wind') {
+		} else if (parameterId === 'wind') {
 			type = 'wind_dir_past1h';
-		} else if (req.params.parameterId === 'visibility') {
+		} else if (parameterId === 'visibility') {
 			type = 'visib_mean_last10min';
-		} else if (req.params.parameterId === 'weather') {
+		} else if (parameterId === 'weather') {
 			type = 'weather';
 		}
 
-		const from = moment(req.params.from).format('YYYY-MM-DDTHH:mm:ss[Z]');
-		const to = moment(req.params.to).format('YYYY-MM-DDTHH:mm:ss[Z]');
+		from = moment(from).format('YYYY-MM-DDTHH:mm:ss[Z]');
+		to = moment(to).format('YYYY-MM-DDTHH:mm:ss[Z]');
 
-		console.log('nearest station: ', nearest.station.name, nearest.station.id, nearest.station.lat, nearest.station.long);
+		// console.log('nearest station: ', nearest.station.name, nearest.station.stationId, nearest.station.lat, nearest.station.long);
 
 		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + from + '/' + to + '&parameterId=' + type).then(rs => rs.data);
 
@@ -86,6 +87,39 @@ router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => 
 			});
 		}
 	}
+
+	return result;
+}
+
+router.get('/weather/v2/export/:from/:to/:lat/:long', async (req, res) => {
+	const resultTemperature = await getWeatherData(req.params.from, req.params.to, req.params.lat, req.params.long, 'temperature');
+	const resultHumidity = await getWeatherData(req.params.from, req.params.to, req.params.lat, req.params.long, 'humidity');
+	// console.log(resultTemperature);
+
+	let result = [];
+	resultTemperature.map((d, i) => {
+		let humidity = resultHumidity.filter(h => h.date === d.date);
+
+		result.push({
+			date: d.date,
+			temperature: d.value.toString().replace('.', ','),
+			humidity: humidity !== undefined ? humidity[0].value : ''
+		});
+	});
+
+	const fields = ['date', 'temperature', 'humidity'];
+
+	try {
+		const csv = parse(result, { fields });
+
+		res.status(200).send(csv);
+	} catch (err) {
+		res.status(404).json(err);
+	}
+});
+
+router.get('/weather/v2/:from/:to/:lat/:long/:parameterId', async (req, res) => {
+	const result = await getWeatherData(req.params.from, req.params.to, req.params.lat, req.params.long, req.params.parameterId);
 
 	res.json(result);
 });
