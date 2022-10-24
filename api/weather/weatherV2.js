@@ -97,7 +97,7 @@ router.get('/weather/v2/export/:from/:to/:lat/:long', async (req, res) => {
 	// console.log(resultTemperature);
 
 	let result = [];
-	resultTemperature.map((d, i) => {
+	resultTemperature.map((d) => {
 		let humidity = resultHumidity.filter(h => h.date === d.date);
 
 		result.push({
@@ -106,6 +106,9 @@ router.get('/weather/v2/export/:from/:to/:lat/:long', async (req, res) => {
 			humidity: humidity !== undefined ? humidity[0].value : ''
 		});
 	});
+
+	//get the oldest first
+	result.reverse();
 
 	const fields = ['date', 'temperature', 'humidity'];
 
