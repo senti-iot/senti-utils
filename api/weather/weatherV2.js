@@ -37,7 +37,9 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 }
 
 const getWeatherData = async (from, to, lat, long, parameterId) => {
-	let result = [];
+	let result = {};
+	result.station = {};
+	result.data = [];
 
 	const fs = require("fs");
 
@@ -82,8 +84,9 @@ const getWeatherData = async (from, to, lat, long, parameterId) => {
 		const data = await api.get('/v2/metObs/collections/observation/items?stationId=' + nearest.station.stationId + '&datetime=' + from + '/' + to + '&parameterId=' + type).then(rs => rs.data);
 
 		if (data) {
+			result.station = nearest.station;
 			data.features.map(d => {
-				result.push({ date: d.properties.observed, value: d.properties.value });
+				result.data.push({ date: d.properties.observed, value: d.properties.value });
 			});
 		}
 	}
@@ -97,8 +100,8 @@ router.get('/weather/v2/export/:from/:to/:lat/:long', async (req, res) => {
 	// console.log(resultTemperature);
 
 	let result = [];
-	resultTemperature.map((d) => {
-		let humidity = resultHumidity.filter(h => h.date === d.date);
+	resultTemperature.data.map((d) => {
+		let humidity = resultHumidity.data.filter(h => h.date === d.date);
 
 		result.push({
 			date: d.date,
@@ -110,7 +113,7 @@ router.get('/weather/v2/export/:from/:to/:lat/:long', async (req, res) => {
 	//get the oldest first
 	result.reverse();
 
-	const fields = ['date', 'temperature', 'humidity'];
+	const fields = ['date', 'temperature', 'humidity', resultTemperature.station.name, resultTemperature.station.lat.toString(), resultTemperature.station.long.toString()];
 
 	try {
 		const csv = parse(result, { fields });
