@@ -69,7 +69,7 @@ const getWeatherData = async (from, to, lat, long, parameterId) => {
 		} else if (parameterId === 'humidity') {
 			type = 'humidity_past1h';
 		} else if (parameterId === 'wind') {
-			type = 'wind_dir_past1h';
+			type = 'wind_speed_past1h';
 		} else if (parameterId === 'visibility') {
 			type = 'visib_mean_last10min';
 		} else if (parameterId === 'weather') {
